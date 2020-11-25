@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         // Добавляем 2 восклицательных знака к нашему тексту, который выводится на экран
         String hello = getResources().getString(R.string.hello);
         hello += "!!";
+        hello += "пам-пам";
         helloW.setText(hello);
     }
 }
